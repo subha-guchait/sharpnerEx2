@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Book Appointment</h1>
+    <label form="patient_details">Patient Details</label>
+    <hr />
+    <form id="patient_details" onsubmit="printPatientDetails(event)">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="u_name" />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="u_email" />
+      <br /><br />
+      <label for="phone">Phone Number:</label>
+      <input id="phone" type="tel" name="u_phone" />
+      <br /><br />
+      <label for="date">Date:</label>
+      <input id="date" type="date" name="u_date" />
+      <br /><br />
+      <label for="time">Time:</label>
+      <input id="time" type="time" name="u_time" />
+      <br /><br />
+      <label>
+        <button type="submit">Submit</button>
+      </label>
+      <label>
+        <button type="reset">Reset</button>
+      </label>
+    </form>
+
+    <script src="/exercise2/main.js"></script>
+  </body>
+</html>
